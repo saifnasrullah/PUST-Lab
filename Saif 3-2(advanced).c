@@ -3,8 +3,12 @@ void main()
 {
     int x;
     printf("Enter a number: ");
-    if(scanf("%d",&x)==0){printf("Invalid number");}
-    else{
+    if(scanf("%d",&x)==0)
+    {
+        printf("Invalid number");
+    }
+    else
+    {
     if(x<0)
     {
         printf("%d is negetive",x);
